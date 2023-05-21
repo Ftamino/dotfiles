@@ -1,0 +1,60 @@
+[module/xworkspaces]
+type = internal/xworkspaces
+label-active = ●
+label-active-background = ${colors.label-active-background}
+;label-active-underline= ${colors.foreground}
+label-active-foreground= ${colors.foreground}
+label-active-padding = 1
+label-occupied = ●
+label-occupied-padding = 1
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+label-empty = ○
+label-empty-foreground = ${colors.foreground}
+label-empty-padding = 1
+
+[module/xwindow]
+type = internal/xwindow
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+label-maxlen = 50
+
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume-prefix = "  "
+format-volume-prefix-foreground = ${colors.Green}
+format-volume =<label-volume>
+label-volume = %percentage%%
+format-muted-prefix = "    "
+label-muted = 0%
+label-muted-foreground = ${colors.disabled}
+click-right = pavucontrol
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "  "
+format-prefix-foreground = ${colors.Peach}
+label = "%percentage_used:2%% "
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix-foreground = ${colors.Red}
+format = <label> 
+format-prefix = "  "
+label = %percentage%%
+
+
+[module/date]
+type = internal/date
+interval = 1
+format-prefix = "  "
+date = %H:%M  
+date-alt = %H:%M  %d.%m.%Y  
+label = %date% %time%
+label-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.Pink}

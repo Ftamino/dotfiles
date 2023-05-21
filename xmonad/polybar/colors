@@ -1,0 +1,14 @@
+[colors]
+Pink = #f5c2e7
+Red = #BF616A
+Peach = #fab387
+Green = #a6e3a1
+Geyser = #D1DBE5
+Tuna = #2E3440
+Steel-Blue = #5E81AC
+
+background = ${colors.Tuna} 
+foreground = ${colors.Geyser} 
+alert = ${colors.Red}
+disabled = ${colors.Red}
+label-active-background = ${colors.Steel-Blue} 
