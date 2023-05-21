@@ -107,6 +107,4 @@ sudo usermod -s yourname /bin/fish
  
  ## Troubleshooting: 
  
- 1. Trayer is on the wrong monitor: Go to line 271 in xmonad.hs and change --monitor 2 to 1 (depends on how many screens you have)
- 
- 2. Open a issue if sth went wrong and i will add it here (;
+Open a issue if something went wrong and i will add it here (;
