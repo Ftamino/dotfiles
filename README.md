@@ -37,22 +37,14 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 * A costum Python Application to configure themes
 * Doom Emacs as a Text Editor
 # Themes
-## Note: Themes are currently not available for the bar but will be in the future
+## Note: Themes are very experimental and currently not available for the bar but will be in the future
 
-  ## Standart (trasnsperent)
-  ![standart](https://i.imgur.com/7b1osbU.png)
-  ## Standart (solid)
-  ![standart-solid](https://i.imgur.com/bWLnC0c.png)
-  ## Nord (trasnsperent)
- ![nord](https://i.imgur.com/Ky5Exes.png)
-  ## Nord (solid)
-  ![nord-solid](https://i.imgur.com/ALXcVfr.png)
-  ## Solarized (trasnsperent)
-![solarized](https://i.imgur.com/O58F9pc.png)
-  ## Solarized (solid)
-![solarized-solid](https://i.imgur.com/zVZkqdx.png)
-  ## Material You Example
-![Mat-You](https://i.imgur.com/TizwZG7.png)
+  ## Standart
+  ![standart](https://i.imgur.com/mhBvwN9.jpg)
+  ## Nord
+ ![nord](https://i.imgur.com/LkO6SYF.jpg)
+  ## Solarized
+![solarized](https://i.imgur.com/JCSvtvB.jpg)
 
 ## Change Themes
 
