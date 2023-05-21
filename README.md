@@ -58,27 +58,23 @@ To make your own theme just go into .xmonad/lib/colors and copy one of the .hs f
 Disclaimer: The script is not perfect and my not work for everyone or destroy sth. 
 
 ## Arch, Debian and Arch/Debian based 
- 1. Install dependences
+ 1. Download the repo
 ```
-sudo apt install git whiptail
+git clone https://www.github.com/Ftamino/dotfiles-polybar 
 ```
- 2. Download the repo
+ 2. Go into the downloaded dir
 ```
-git clone https://github.com/Ftamino/dotfiles.git dotfiles
+cd dotfiles-polybar
 ```
- 3. Go into the downloaded dir
-```
-cd dotfiles
-```
- 4. Give the script permissions 
+ 3. Give the script permissions 
 ```
 chmod +x ./install.sh
 ```
- 5. Run it
+ 4. Run it
 ```
 ./install.sh
 ```
-6. To get fish as the default shell use
+5. To get fish as the default shell use
 ```
 sudo usermod -s yourname /bin/fish
 ```
