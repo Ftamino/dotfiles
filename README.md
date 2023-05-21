@@ -88,12 +88,12 @@ sudo usermod -s yourname /bin/fish
 ## Others:
  1. Use your package manager to install dependences (if u dont use the flatpak of flameshot you have to change the hotkey action for it in the xmonad config)
  ```
- xmonad xmobar neofetch lxpolkit dunst rofi picom copyq volumeicon nitrogen emacs kitty git flameshot arandr
+ xmonad polybar neofetch lxpolkit dunst rofi picom copyq volumeicon nitrogen emacs kitty git flameshot arandr
  ```
  2. Download the repo
  ```
- git clone https://github.com/Ftamino/dotfiles.git dotfiles
- ```
+git clone https://www.github.com/Ftamino/dotfiles-polybar 
+```
  3. Find out where the files need to go (look at the install script)
  
  ## Troubleshooting: 
