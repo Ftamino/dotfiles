@@ -39,7 +39,6 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 # Themes
 ## Note: Themes are currently not available for the bar but will be in the future
 
-[Make your own theme](https://github.com/Ftamino/dotfiles#themeing)
   ## Standart (trasnsperent)
   ![standart](https://i.imgur.com/7b1osbU.png)
   ## Standart (solid)
