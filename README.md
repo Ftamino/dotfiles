@@ -3,25 +3,25 @@
 This is my current setup which is using xmonad as a base. A list of keybinds is WIP (Open it if installed with Mod+F12). Feel free to fork it and do sth cool out of it, you don't need to give credits but I would be happy about it. 😁
 
 ##### Table of contents
-[1. Info](https://github.com/Ftamino/dotfiles#info)
+[1. Info](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#info)
 
-* [1.1 Included Programms](https://github.com/Ftamino/dotfiles#whats-included)
+* [1.1 Included Programms](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#whats-included)
   
-[2. Themes](https://github.com/Ftamino/dotfiles#themes)
+[2. Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#themes)
 
-*  [2.1 Premade Themes](https://github.com/Ftamino/dotfiles#standart-trasnsperent)
+*  [2.1 Premade Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#themes)
   
-*  [2.2 Change Themes](https://github.com/Ftamino/dotfiles#change-themes)
+*  [2.2 Change Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#change-themes)
   
-*  [2.3 Make own Themes](https://github.com/Ftamino/dotfiles#make-themes)
+*  [2.3 Make own Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#make-themes)
 
-[3. Installation](https://github.com/Ftamino/dotfiles#installing)
+[3. Installation](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#installing)
 
-*  [3.1 Arch, Debian, Arch/Debian based](https://github.com/Ftamino/dotfiles/blob/main/README.md#arch-debian-and-archdebian-based)
+*  [3.1 Arch, Debian, Arch/Debian based](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#arch-debian-and-archdebian-based)
 
-*  [3.2 Others](https://github.com/Ftamino/dotfiles#others)
+*  [3.2 Others](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#others)
 
-[4. Troubleshooting](https://github.com/Ftamino/dotfiles#troubleshooting)
+[4. Troubleshooting](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#troubleshooting)
 
 ## What's included?
 
