@@ -31,7 +31,6 @@ COLOR4="#$4"
 if [[ $1 == "--remove"* || $1 == "-r" ]]; then
   rm ~/.xmonad/lib/Colors/$2.hs
   rm ~/.xmonad/polybar/colors.$2
-  #sed -i 's/\'$2'/~/.xmonad/polybar/colors/g' ~/.xmonad/polybar/config
   sed -i 's|'"$2"'|colors|g' ~/.xmonad/polybar/config
   sed -i 's/import Colors.*/import Colors.Nord/g' ~/.xmonad/lib/Modules/Defaults.hs
   xmonad --restart
