@@ -7,7 +7,7 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 
 * [1.1 Included Programms](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#whats-included)
 
-* [1.2 Keybinds](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#whats-included)
+* [1.2 Keybinds](https://github.com/Ftamino/dotfiles/tree/main#keybinds)
   
 [2. Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#themes)
 
