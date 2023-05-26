@@ -15,6 +15,8 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
   
 *  [2.3 Make own Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#make-themes)
 
+*  [2.4 Remove own Themes](https://github.com/Ftamino/dotfiles/tree/main#uninstall-selfmade-themes)
+
 [3. Installation](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#installing)
 
 *  [3.1 Arch, Debian, Arch/Debian based](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#arch-debian-and-archdebian-based)
