@@ -6,6 +6,8 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 [1. Info](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#info)
 
 * [1.1 Included Programms](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#whats-included)
+
+* [1.2 Keybinds](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#whats-included)
   
 [2. Themes](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#themes)
 
@@ -25,7 +27,7 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 
 [4. Troubleshooting](https://github.com/Ftamino/dotfiles-polybar/blob/main/README.md#troubleshooting)
 
-## What's included?
+# What's included?
 
 * Xmonad as a window manager 
 * Polybar as a panel
@@ -38,6 +40,98 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 * Rofi to get the run promt and logout menu
 * A costum Python Application to configure themes
 * Doom Emacs as a Text Editor
+
+# Keybinds
+
+<details>
+<summary>Keybindings</summary>
+
+Launch a terminal: Super + t
+
+Launch rofi: Super + y
+
+Launch rofi window switcher: Alt + Tab
+
+Launch browser: Super + c
+
+Launch flameshot GUI with flatpak: Print
+
+Open emacsclient: Super + F10
+
+Media keys:
+
+Volume up: Volume Up Key
+  
+Volume down: Volume Down Key
+  
+Mute: Volume Mute Key
+  
+Open Configuration Program: Super + F12
+
+Close focused window: Super + q
+
+Force kill focused window: Super + Shift + q
+
+Rotate through the available layout algorithms: Super + space
+
+Reset the layouts on the current workspace to default: Super + Shift + space
+
+Toggle Fullscreen: Super + F11
+
+Resize viewed windows to the correct size: Super + n
+
+Move focus to the next window: Super + Tab or Super + j
+
+Move focus to the previous window: Super + k
+
+Move focus to the master window: Super + m
+
+Swap the focused window and the master window: Super + Return
+
+Swap the focused window with the next window: Super + Shift + a
+
+Swap the focused window with the previous window: Super + Shift + d
+
+Shrink the master area: Super + a
+
+Expand the master area: Super + d
+
+Push window back into tiling: Super + Shift + t
+
+Quit Dialog: Super + Shift + o
+
+Restart xmonad: Super + z
+
+Resize current window to 5760*1200: Super + Shift + f
+
+</details>
+<details>
+<summary>Workspace Switching</summary>
+
+Switch to workspace N: Super + [1..9]
+
+Move client to workspace N: Super + Shift + [1..9]
+
+</details>
+<details>
+<summary>Screen Switching</summary>
+
+Switch to physical/Xinerama screens 1, 2, or 3: Super + [w,e,r]
+
+Move client to screen 1, 2, or 3: Super + Shift + [w,e,r]
+
+</details>
+<details>
+<summary>Mouse Bindings</summary>
+
+Set the window to floating mode and move by dragging: Super + button1
+
+Raise the window to the top of the stack: Super + button2
+
+Set the window to floating mode and resize by dragging: Super + button3
+
+</details>
+
 # Themes
 ## Note: Themes are very experimental and currently not available for the bar but will be in the future
 
