@@ -43,6 +43,8 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 
   ## Standart
   ![standart](https://i.imgur.com/mhBvwN9.jpg)
+  ## Material U(nix)
+  ![Material U(nix)](https://i.imgur.com/Mwtx3aA.jpg)
   ## Nord
  ![nord](https://i.imgur.com/LkO6SYF.jpg)
   ## Solarized
