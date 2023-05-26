@@ -52,7 +52,7 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
 
 ## Material U(nix)
 
-If you have ever used android 12 or up you are familiar with [material you](https://material.io/blog/announcing-material-you). For those who don't know, it basically changes all the colors on your display to some from your wallpaper. To use it press F12 > Change Themes > Material You or use material-you.sh in .xmonad. Feel free to adapt this script to your rice. I would love to see someone using it.
+If you have ever used android 12 or up you are familiar with [material you](https://material.io/blog/announcing-material-you). For those who don't know, it basically changes all the colors on your display to some from your wallpaper. To use it press F12 > Change Themes > Material You or use material-you.sh in .xmonad. Feel free to adapt this script to your rice. I would love to see someone using it. It can only handle .jpg and .png files for now.
 
 ## Change Themes
 
