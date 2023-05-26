@@ -46,14 +46,44 @@ This is my current setup which is using xmonad as a base. A list of keybinds is 
   ## Solarized
 ![solarized](https://i.imgur.com/JCSvtvB.jpg)
 
+## Material U(nix)
+
+If you have ever used android 12 or up you are familiar with [material you](https://material.io/blog/announcing-material-you). For those who don't know, it basically changes all the colors on your display to some from your wallpaper. To use it press F12 > Change Themes > Material You or use material-you.sh in .xmonad. Feel free to adapt this script to your rice. I would love to see someone using it.
+
 ## Change Themes
 
 To change Themes use the Python Programm. If the dotfiles are installed use F12 on your keyboard. A simple python3 ./configuration.py should also do it. Changing the Themes for GTK will come in the Programm soon, but its also possible to cahange it thorugh lxapperance.
 
 ## Make Themes
 
-To make your own theme just go into .xmonad/lib/colors and copy one of the .hs files. Give it a new name and change in line 1 behind "Colors." the eg Standart to the name of your file. In line five to the same. Change the scheme in xmonad.hs in the imports section by changing the argument import Colors.Standart to the name of yours.
- 
+To make your own theme run 
+```
+~/.xmonad/generate-theme.sh [COLOR1] [COLOR2] [COLOR3] [COLOR4] [NAME]
+```
+
+* COLOR1: The color for the background of the bar
+* COLOR2: Foreground color of the bar
+* COLOR3: Active window color
+* COLOR4: Inactive window color
+* NAME: Name of the theme
+
+All the colors have to be in hex code but WITHOUT THE #
+
+
+Example:
+```
+~/.xmonad/generate-theme.sh 2E3440 B48EAD 5E81AC A3BE8C NordTheme
+```
+## Uninstall selfmade Themes
+
+To remove your generated themes from [above](https://github.com/Ftamino/dotfiles/edit/main/README.md#make-themes) run
+```
+~/.xmonad/generate-theme.sh -r [NAME]
+```
+Use the exact NAME as [above](https://github.com/Ftamino/dotfiles/edit/main/README.md#make-themes)
+
+
+
 # Installing 
 Disclaimer: The script is not perfect and my not work for everyone or destroy sth. 
 
