@@ -1,8 +1,8 @@
 [global/wm]
 margin-top    = 0
 margin-bottom = 0
-include-file = $HOME/.xmonad/polybar/colors
-include-file = $HOME/.xmonad/polybar/modules
+include-file = ~/.xmonad/polybar/colors.my
+include-file = ~/.xmonad/polybar/modules
 
 [bar/example]
 width = 99%

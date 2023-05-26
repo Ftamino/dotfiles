@@ -1,0 +1,8 @@
+[colors]
+Red = #BF616A
+
+background = null
+foreground = null
+alert = ${colors.Red}
+disabled = ${colors.Red}
+label-active-background = null

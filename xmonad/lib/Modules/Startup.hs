@@ -58,5 +58,3 @@ myStartupHook = do
                   
         --Spawn Discord (flatpak)
         --spawn "/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=discord com.discordapp.Discord"     
-
-        --spawn "killall taffybar-linux-x86_64" 

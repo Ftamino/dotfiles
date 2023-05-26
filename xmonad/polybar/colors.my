@@ -1,0 +1,8 @@
+[colors]
+Red = #BF616A
+
+background = #101C18
+foreground = #EFE3E7
+alert = ${colors.Red}
+disabled = ${colors.Red}
+label-active-background = #3D4D45

@@ -26,6 +26,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch rofi
     , ((modm, xK_y), spawn "rofi -modi run,drun,window -show drun -show-icons -sidebar-mode") 
 
+    -- launch rofi window switcher
+    , ((mod1Mask, xK_Tab), spawn "rofi -show window -show-icons -sidebar-mode") 
+
     --launch browser 
     , ((modm,               xK_c     ), spawn myBrowser) 
 
@@ -36,9 +39,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm,            xK_F10 ), spawn "emacsclient -c -a 'emasc'")
 
     --Media keys 
-    , ((0, 0x1008ff13), spawn "amixer set Master 5%+ unmute") 
-    , ((0, 0x1008ff11), spawn "amixer set Master 5%- unmute") 
-    , ((0, 0x1008ff12), spawn "amixer set Master 100%- unmute")
+    , ((0, 0x1008ff13), spawn "./.xmonad/scripts/volume.sh up") 
+    , ((0, 0x1008ff11), spawn "./.xmonad/scripts/volume.sh down") 
+    , ((0, 0x1008ff12), spawn "./.xmonad/scripts/volume.sh mute")
 
     --Open Configuration Programm
     , ((modm,            xK_F12 ), spawn "python3 ~/.configuration.py")

@@ -1,7 +1,7 @@
 module Modules.Defaults where
 
 import XMonad
-import Colors.Solarized
+import Colors.MaterialYou
 import qualified Data.Map        as M
 import Data.Maybe (fromJust)
 

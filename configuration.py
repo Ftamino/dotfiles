@@ -110,22 +110,18 @@ class MyWindow2(Gtk.Window):
         colorBtn1 = Gtk.RadioButton.new_with_label_from_widget(colorBtn0, label="Standart")
         colorBtn1.connect("clicked", self.on_clicked, "Standart")
 
-        colorBtn2 = Gtk.RadioButton.new_with_label_from_widget(colorBtn1, label="Standart Solid")
-        colorBtn2.connect("clicked", self.on_clicked, "StandartSolid")
+       
 
-        colorBtn3 = Gtk.RadioButton.new_with_label_from_widget(colorBtn2, label="Nord")
+        colorBtn3 = Gtk.RadioButton.new_with_label_from_widget(colorBtn1, label="Nord")
         colorBtn3.connect("clicked", self.on_clicked, "Nord")
 
-        colorBtn4 = Gtk.RadioButton.new_with_label_from_widget(colorBtn3, label="Nord Solid")
-        colorBtn4.connect("clicked", self.on_clicked, "NordSolid")
+       
 
-        colorBtn5 = Gtk.RadioButton.new_with_label_from_widget(colorBtn4, label="Solarized")
+        colorBtn5 = Gtk.RadioButton.new_with_label_from_widget(colorBtn3, label="Solarized")
         colorBtn5.connect("clicked", self.on_clicked, "Solarized")
 
-        colorBtn6 = Gtk.RadioButton.new_with_label_from_widget(colorBtn5, label="Solarized Solid")
-        colorBtn6.connect("clicked", self.on_clicked,"SolarizedSolid")
-        
-        colorBtn7 = Gtk.RadioButton.new_with_label_from_widget(colorBtn6, label="Material You")
+       
+        colorBtn7 = Gtk.RadioButton.new_with_label_from_widget(colorBtn5, label="Material You")
         colorBtn7.connect("clicked", self.on_materialyou_clicked)
 
         colorBtn12 = Gtk.Button(label="Back To Main Menu")
@@ -141,11 +137,8 @@ class MyWindow2(Gtk.Window):
         grid4.attach(label2,     0, 4, 4, 2)
         grid4.attach(colorBtn0,  0, 6, 1, 1)
         grid4.attach(colorBtn1,  1, 6, 1, 1)
-        grid4.attach(colorBtn2,  2, 6, 1, 1)
         grid4.attach(colorBtn3,  3, 6, 1, 1)
-        grid4.attach(colorBtn4,  0, 7, 1, 1)
         grid4.attach(colorBtn5,  1, 7, 1, 1)
-        grid4.attach(colorBtn6,  2, 7, 1, 1)
         grid4.attach(colorBtn7,  3, 7, 1, 1)
         grid4.attach(label3,     0, 9, 4, 1)
         grid4.attach(colorBtn12, 0, 10, 2, 1)
@@ -169,7 +162,7 @@ class MyWindow2(Gtk.Window):
             print("Something else:", choice)
 
     def on_materialyou_clicked(self, widget):
-        mat_you = 'kitty /bin/bash ~/.xmonad/material-you/material-you.sh '
+        mat_you = 'kitty /bin/bash ~/.xmonad/material-you.sh -x -p'
         os.system(mat_you)
         
 

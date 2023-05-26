@@ -17,9 +17,6 @@ import Modules.Defaults
 import Modules.Startup (myStartupHook)
 import Modules.Manage (myManageHook)
 
-import Colors.Solarized
-
-
 myEventHook = mempty
 myBorderWidth   = 2
 
