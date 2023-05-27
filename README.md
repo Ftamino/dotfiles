@@ -188,11 +188,11 @@ Disclaimer: The script is not perfect and my not work for everyone or destroy st
 ## Arch, Debian and Arch/Debian based 
  1. Download the repo
 ```
-git clone https://www.github.com/Ftamino/dotfiles-polybar 
+git clone https://www.github.com/Ftamino/dotfiles
 ```
  2. Go into the downloaded dir
 ```
-cd dotfiles-polybar
+cd dotfiles
 ```
  3. Give the script permissions 
 ```
